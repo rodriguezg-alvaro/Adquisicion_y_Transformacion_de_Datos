@@ -1,0 +1,14 @@
+Pasos:
+
+    1. En la consola de comandos situarse en la carpeta de Practica 13
+
+    2. Una vez en la carpeta ejecutar el siguiente comando:
+
+                python3 Práctica_13.py 'Fecha'
+
+    Obs: La fecha debe ir en formato int!!!
+
+    3. Una vez ejecutado lo anterior tendremos nuestros archivos descargados
+
+IMPORTANTE: el archivo .py esta configurado para que se descarguen los documentos en una ruta local del ordenador, 
+en cada caso habrá que configurar la ruta.

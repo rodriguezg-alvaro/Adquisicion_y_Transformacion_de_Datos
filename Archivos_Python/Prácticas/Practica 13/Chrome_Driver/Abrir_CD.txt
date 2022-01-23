@@ -1,0 +1,2 @@
+
+La ruta del ejecutable de Chrome Driver es "./Archivos_Python/Prácticas/Chrome_Driver/chromedriver".

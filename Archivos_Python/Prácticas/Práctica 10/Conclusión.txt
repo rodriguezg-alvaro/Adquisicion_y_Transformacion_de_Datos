@@ -1,0 +1,13 @@
+A pesar de que el código no termina de funcionar bien, lo cual se debe a la poca flexibilidad establecida 
+para la descarga de la tabla en la parte del scraper, el cómo escalaría la ejecución para recuperar todos 
+los datos de todas las universidades de todo el mundo, lo que haría sería iterar la parte del spider que 
+obtiene las urls de las universidades por cada país que se encuentra en la lista descargada en la primera
+parte del spider. 
+Tras ello lo que haría es que todas las urls de las universidades se almacenasen en un mismo csv, es decir, 
+que se fuese rellenando a medida que se realizan las iteraciones. Por último lo que haría es pasar este csv 
+nuestro scraper y de ahi ya descargar los datos.
+
+Los principales problemas que veo son la gran cantidad de urls que se pueden obtener, a su vez también veo como 
+problema el tema de que muchas universidades no tengan la tabla o los datos que deseamos. El tema del número de
+peticiones no lo consideraria un problema ya que estamos realizandolas a Wikipedia, la cual soporta un gran 
+volumen de peticiones.
